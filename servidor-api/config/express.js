@@ -14,6 +14,10 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.get(function(req, res) {
+  res.write("<h1> teste de express </h1>");
+})
+
 routes(app);
 
 module.exports = app;
