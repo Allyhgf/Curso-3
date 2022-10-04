@@ -1,5 +1,5 @@
 import { escapar } from '../decorators/escapar.js';
-import { Negociacoes } from '../models/negociacoes.js';
+import { Negociacoes } from "../models/Negociacoes";
 import { View } from './view.js';
 
 export class NegociacoesView extends View<Negociacoes> {
