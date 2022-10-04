@@ -9,8 +9,8 @@
         "experimentalDecorators": true,
         "baseUrl": "./",
         "paths": {
-        "*": [ "node_modules/@types/*", "*"]
-    }
+            "*": [ "node_modules/@types/*", "*"]
+        },
     },
     "include": ["app/src/**/*"]
 }
