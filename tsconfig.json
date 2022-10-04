@@ -6,7 +6,11 @@
         "noImplicitAny": true,
         "removeComments": true,
         "strictNullChecks": true,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+        "*": [ "node_modules/@types/*", "*"]
+    }
     },
     "include": ["app/src/**/*"]
 }
